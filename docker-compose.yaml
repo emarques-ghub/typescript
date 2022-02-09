@@ -1,0 +1,10 @@
+version: "3"
+services:
+  webserver:
+    image: typescript
+    ports:
+      - 49160:8080
+    volumes:
+      - ./src:/app/src
+
+      
